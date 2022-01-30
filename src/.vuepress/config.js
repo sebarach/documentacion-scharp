@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   dest:'docs',
-  base:'/documentacion-csharp/',
+  base:'/documentacion-scharp/',
   title: 'Documentacion C# Y .NET CORE',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
