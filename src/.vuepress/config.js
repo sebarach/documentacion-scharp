@@ -37,7 +37,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'C-Sharp',
         link: '/guide/',
       },
       {
@@ -52,11 +52,11 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Guia',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'exception',
           ]
         }
       ],
