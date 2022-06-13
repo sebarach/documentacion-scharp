@@ -2,7 +2,7 @@
 ---
 - Diagrama Solid
 
-<img src="https://raw.githubusercontent.com/sebarach/documentacion-csharp/main/images/solid.png">
+<img src="../../images/solid.png">
 
 - La inyeccion de depdendencias resuelve una problematica principal, el Principio de inversion (Principio SOLID).
 
