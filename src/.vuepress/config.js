@@ -45,7 +45,7 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
+        text: 'VuePress', 
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
@@ -56,7 +56,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'InyeccionDependecy',
             'exception',
+            'tips',
           ]
         }
       ],
