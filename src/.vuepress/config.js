@@ -20,7 +20,8 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href:`/favicon.ico` }]
   ],
 
   /**
@@ -53,16 +54,23 @@ module.exports = {
       '/guide/': [
         {
           title: 'Guia',
-          collapsable: false,
+          collapsable: true,
           children: [
             '',
             'InyeccionDependecy',
             'exception',
             'tips',
           ]
+        },
+        {
+            title:'MVC TIPS',
+            collapsable:true,
+            children: [
+              '/guide/mvc/',
+            ]
         }
       ],
-    }
+    },
   },
 
   /**
