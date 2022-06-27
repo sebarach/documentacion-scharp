@@ -20,7 +20,8 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href:`/favicon.ico` }]
   ],
 
   /**
@@ -37,7 +38,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: 'C-Sharp',
         link: '/guide/',
       },
       {
@@ -45,22 +46,31 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
+        text: 'VuePress', 
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'Guia',
+          collapsable: true,
           children: [
             '',
-            'using-vue',
+            'InyeccionDependecy',
+            'exception',
+            'tips',
           ]
+        },
+        {
+            title:'MVC TIPS',
+            collapsable:true,
+            children: [
+              '/guide/mvc/',
+            ]
         }
       ],
-    }
+    },
   },
 
   /**
