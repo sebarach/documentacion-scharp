@@ -14,7 +14,6 @@ Se crea la pestana para debugear al lado izquierdo
 ```
 
 
-
 ### Structs de registro
 - Puede declarar los registros de tipo de valor mediante las declaraciones record struct o readonly record struct. Ahora puede aclarar que un elemento record es un tipo de referencia con la declaración record class.
 
